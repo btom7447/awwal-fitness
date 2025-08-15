@@ -31,7 +31,7 @@ export default function HeroSection() {
                     <p
                         data-aos="fade-up"
                         data-aos-delay="200"
-                        className="text-2xl text-gray-400"
+                        className="text-xl text-gray-400"
                     >
                         Your Trusted Fitness Coach – Helping You Burn Fat, Build Muscle & Own
                         Your Transformation

@@ -48,7 +48,7 @@ export default function ServicesGrid() {
                             transition-transform duration-500 ease-in-out"
                         >
                             <PlusIcon size={20} strokeWidth={1} />
-                            <h6 className="text-lg text-white font-light">{serv.name}</h6>
+                            <h6 className="text-xl text-white font-light">{serv.name}</h6>
                         </div>
                     </div>
                 </div>
