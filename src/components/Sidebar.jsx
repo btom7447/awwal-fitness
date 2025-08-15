@@ -60,7 +60,7 @@ export default function Sidebar() {
             </div>
 
             <Image
-                src="/awwal-logo.png"
+                src="/images/awwal-logo.png"
                 width={100}
                 height={50}
                 alt="Awwal Fitness Logo"
