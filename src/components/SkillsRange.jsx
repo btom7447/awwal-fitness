@@ -16,7 +16,7 @@ export default function SkillsRange({ skills, skillsRef, startAnimation, percent
                             <>
                                 {/* Skill Name */}
                                 <span
-                                    className="text-xl font-light uppercase text-white opacity-0"
+                                    className="text-sm lg:text-xl font-light uppercase text-white opacity-0"
                                     style={{
                                         transition: `opacity 0.5s ease ${idx * 0.3 + 0.5}s`,
                                         opacity: 1,

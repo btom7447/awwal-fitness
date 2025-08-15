@@ -17,7 +17,7 @@ export default function HeroSection() {
             id="heroSection"
             className="bg-black"
         >
-            <div className="p-15 lg:p-20 grid gap-10 grid-cols-1 md:grid-cols-2 items-center">
+            <div className="p-10 lg:p-20 grid gap-10 grid-cols-1 md:grid-cols-2 items-center">
                 {/* Left side text */}
                 <div>
                     <h1
