@@ -62,7 +62,7 @@ export default function AboutSection() {
 
     return (
         <section id="aboutSection" className="bg-white">
-            <div className="p-10 lg:p-20 grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-10 items-center">
+            <div className="p-10 pb-15 lg:p-20 grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-10 items-center">
                 <Expertise />
                 <SkillsRange 
                     skills={skills} 
