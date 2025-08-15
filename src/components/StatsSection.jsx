@@ -47,7 +47,7 @@ export default function StatsSection({ stats }) {
             style={{ backgroundImage: "url('/images/stats-background.jpg')" }}
             aria-labelledby="stat-metrics"
         >
-            <div className="w-full flex flex-col lg:flex-row items-center justify-around gap-10">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-15">
                 {stats.map((stat, idx) => (
                     <div key={idx} className="flex flex-col items-center">
                         <h2 className="text-white font-bold text-7xl">

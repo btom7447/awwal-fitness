@@ -29,14 +29,14 @@ export default function RootLayout({ children }) {
       >
         <div className="flex min-h-screen">
           {/* Sidebar - visible on laptop+ */}
-          <aside className="fixed left-0 top-0 h-[100dvh] hidden md:flex w-70 bg-gray-900 text-white">
+          <aside className=" z-40 fixed left-0 top-0 h-[100dvh] hidden xl:flex min-w-70 bg-gray-900 text-white">
             <Sidebar />
           </aside>
 
           {/* Main content area */}
-          <div className="ml-0 lg:ml-70 flex-1 flex flex-col">
+          <div className="ml-0 xl:ml-70 flex-1 flex flex-col">
             {/* Header - visible on mobile */}
-            <div className="z-40 md:hidden">
+            <div className="z-40 xl:hidden">
               <Header />
             </div>
 

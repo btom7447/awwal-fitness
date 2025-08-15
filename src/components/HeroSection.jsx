@@ -52,7 +52,7 @@ export default function HeroSection() {
                     />
 
                     <div
-                        className="absolute right-0 bottom-40 flex items-center space-x-5 p-5 bg-gray-900 text-white"
+                        className="absolute right-0 bottom-40 xl:bottom-50 2xl:bottom-40 flex items-center space-x-5 p-5 bg-gray-900 text-white"
                         data-aos="fade-left"
                         data-aos-delay="600"
                     >
