@@ -52,7 +52,7 @@ export default function HeroSection() {
                     />
 
                     <div
-                        className="absolute right-0 bottom-40 xl:bottom-50 2xl:bottom-40 flex items-center space-x-5 p-5 bg-gray-900 text-white"
+                        className="absolute right-0 bottom-40 flex items-center space-x-5 p-5 bg-gray-900 text-white"
                         data-aos="fade-left"
                         data-aos-delay="600"
                     >
@@ -73,7 +73,7 @@ export default function HeroSection() {
                         data-aos-delay="800"
                     >
                         <p className="text-xl text-white uppercase">My Moto</p>
-                        <h6 className="text-3xl text-white font-bold">
+                        <h6 className="text-xl lg:text-3xl text-white font-bold">
                             Work Hard, Rest Harder
                         </h6>
                     </div>
