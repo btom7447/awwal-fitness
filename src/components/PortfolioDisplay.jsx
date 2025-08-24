@@ -1,15 +1,30 @@
 "use client";
 
 import { useState } from "react";
-import portfolioData from "../../public/data/portfolioData.json"
+import { MoonLoader } from "react-spinners";
+import portfolioData from "../../public/data/portfolioData.json";
 
 export default function PortfolioDisplay() {
-    // default active = first service
     const [activeService, setActiveService] = useState(portfolioData[0].id);
+    const [showAll, setShowAll] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     const currentService = portfolioData.find(
         (service) => service.id === activeService
     );
+
+    // slice items depending on showAll state
+    const displayedItems = showAll
+        ? currentService?.portfolio
+        : currentService?.portfolio.slice(0, 2);
+
+    const handleViewMore = () => {
+        setLoading(true);
+        setTimeout(() => {
+            setShowAll(true);
+            setLoading(false);
+        }, 1000); // fake loading delay for smoother UI
+    };
 
     return (
         <div className="w-full p-10 lg:p-20">
@@ -18,7 +33,10 @@ export default function PortfolioDisplay() {
                 {portfolioData.map((service) => (
                     <button
                         key={service.id}
-                        onClick={() => setActiveService(service.id)}
+                        onClick={() => {
+                            setActiveService(service.id);
+                            setShowAll(false); // reset when switching service
+                        }}
                         className={`
                             relative inline-block w-fit text-xl font-extralight uppercase transition-colors duration-300 cursor-pointer
                             ${activeService === service.id ? "text-white after:w-full after:bg-white" : "text-white "}
@@ -34,7 +52,7 @@ export default function PortfolioDisplay() {
 
             {/* Portfolio Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch gap-10">
-                {currentService?.portfolio.map((item) => (
+                {displayedItems?.map((item) => (
                     <div
                         key={item.id}
                         className="p-5 bg-black text-white border border-white"
@@ -44,36 +62,36 @@ export default function PortfolioDisplay() {
                             <img
                                 src={item.before_photos}
                                 alt={`${item.client} before`}
-                                className="w-full h-40 object-cover"
+                                className="w-full h-80 object-cover object-center"
                             />
                             <img
                                 src={item.after_photos}
                                 alt={`${item.client} after`}
-                                className="w-full h-40 object-cover"
+                                className="w-full h-80 object-cover object-center"
                             />
                         </div>
 
                         {/* Info */}
                         <div className="p-4 space-y-2">
-                            <h3 className="text-xl font-semibold">
+                            <h3 className="text-3xl font-semibold">
                                 {item.client}, {item.age}
                             </h3>
-                            <p className="text-sm text-gray-500">{item.goal}</p>
-                            <p className="text-sm">
+                            <p className="text-xl text-gray-500">{item.goal}</p>
+                            <p className="text-xl text-gray-300">
                                 <span className="font-medium">Weight:</span>{" "}
                                 {item.weight}
                             </p>
-                            <p className="text-sm">
+                            <p className="text-xl">
                                 <span className="font-medium">Program:</span>{" "}
                                 {item.program_type}
                             </p>
-                            <p className="text-sm">
+                            <p className="text-xl">
                                 <span className="font-medium">Duration:</span>{" "}
                                 {item.duration}
                             </p>
 
                             {/* Wins */}
-                            <ul className="list-disc list-inside text-sm text-green-600 mt-3 space-y-1">
+                            <ul className="list-disc list-inside text-xl text-blue-300 mt-5 space-y-2">
                                 {item.wins.map((win, i) => (
                                     <li key={i}>{win}</li>
                                 ))}
@@ -82,6 +100,25 @@ export default function PortfolioDisplay() {
                     </div>
                 ))}
             </div>
+
+            {/* View More */}
+            {!showAll && currentService?.portfolio.length > 2 && (
+                <div className="flex justify-center mt-15">
+                    {loading ? (
+                        <div className="p-10">
+                            <MoonLoader size={25} color="#fff" />
+                        </div>
+                    ) : (
+                        <button
+                            type="button"
+                            onClick={handleViewMore}
+                            className="px-10 py-5 bg-white text-black text-xl capitalize cursor-pointer hover:bg-blue-400 hover:text-white"
+                        >
+                            View More
+                        </button>
+                    )}
+                </div>
+            )}
         </div>
     );
 }

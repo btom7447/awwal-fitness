@@ -12,8 +12,8 @@
                 "starting_point": "Could barely run 1 mile",
                 "duration": "6 months",
                 "program_type": "HIIT + Heart Rate Zone Training",
-                "before_photos": "david_before.jpg",
-                "after_photos": "david_after.jpg",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
                 "wins": [
                     "Ran first marathon in 4h 22m",
                     "Resting HR dropped from 72 → 58 bpm",
@@ -29,8 +29,76 @@
                 "starting_point": "Low stamina, frequent fatigue",
                 "duration": "12 weeks",
                 "program_type": "Stair Climber Circuits + Outdoor Intervals",
-                "before_photos": "sarah_before.jpg",
-                "after_photos": "sarah_after.jpg",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Completed 10-mile hike without breaks",
+                    "VO2 max improved by 18%",
+                    "Reduced body fat by 8%"
+                ]
+            },
+            {
+                "id": 103,
+                "client": "David M.",
+                "age": 32,
+                "weight": "210lbs → 185lbs",
+                "goal": "Improve endurance for marathon",
+                "starting_point": "Could barely run 1 mile",
+                "duration": "6 months",
+                "program_type": "HIIT + Heart Rate Zone Training",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Ran first marathon in 4h 22m",
+                    "Resting HR dropped from 72 → 58 bpm",
+                    "Lost 25lbs while maintaining muscle"
+                ]
+            },
+            {
+                "id": 104,
+                "client": "Sarah K.",
+                "age": 28,
+                "weight": "155lbs → 140lbs",
+                "goal": "Boost energy for hiking trips",
+                "starting_point": "Low stamina, frequent fatigue",
+                "duration": "12 weeks",
+                "program_type": "Stair Climber Circuits + Outdoor Intervals",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Completed 10-mile hike without breaks",
+                    "VO2 max improved by 18%",
+                    "Reduced body fat by 8%"
+                ]
+            },
+            {
+                "id": 105,
+                "client": "David M.",
+                "age": 32,
+                "weight": "210lbs → 185lbs",
+                "goal": "Improve endurance for marathon",
+                "starting_point": "Could barely run 1 mile",
+                "duration": "6 months",
+                "program_type": "HIIT + Heart Rate Zone Training",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Ran first marathon in 4h 22m",
+                    "Resting HR dropped from 72 → 58 bpm",
+                    "Lost 25lbs while maintaining muscle"
+                ]
+            },
+            {
+                "id": 106,
+                "client": "Sarah K.",
+                "age": 28,
+                "weight": "155lbs → 140lbs",
+                "goal": "Boost energy for hiking trips",
+                "starting_point": "Low stamina, frequent fatigue",
+                "duration": "12 weeks",
+                "program_type": "Stair Climber Circuits + Outdoor Intervals",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
                 "wins": [
                     "Completed 10-mile hike without breaks",
                     "VO2 max improved by 18%",
@@ -52,8 +120,8 @@
                 "starting_point": "Novice lifter, inconsistent form",
                 "duration": "5 months",
                 "program_type": "Powerlifting Fundamentals",
-                "before_photos": "michael_before.jpg",
-                "after_photos": "michael_after.jpg",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
                 "wins": [
                     "Deadlift: 135lbs → 315lbs",
                     "Squat: 95lbs → 275lbs",
@@ -69,8 +137,76 @@
                 "starting_point": "Skinny-fat, weak core",
                 "duration": "16 weeks",
                 "program_type": "Hypertrophy Focus (3x/week)",
-                "before_photos": "priya_before.jpg",
-                "after_photos": "priya_after.jpg",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Added 1.5 inches to glutes",
+                    "Can do 3 unassisted pull-ups",
+                    "Reduced waist by 3 inches"
+                ]
+            },
+             {
+                "id": 203,
+                "client": "Michael T.",
+                "age": 40,
+                "weight": "170lbs → 185lbs",
+                "goal": "Build functional strength for rugby",
+                "starting_point": "Novice lifter, inconsistent form",
+                "duration": "5 months",
+                "program_type": "Powerlifting Fundamentals",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Deadlift: 135lbs → 315lbs",
+                    "Squat: 95lbs → 275lbs",
+                    "Made competitive rugby team"
+                ]
+            },
+            {
+                "id": 204,
+                "client": "Priya N.",
+                "age": 35,
+                "weight": "125lbs → 130lbs",
+                "goal": "Tone up for wedding",
+                "starting_point": "Skinny-fat, weak core",
+                "duration": "16 weeks",
+                "program_type": "Hypertrophy Focus (3x/week)",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Added 1.5 inches to glutes",
+                    "Can do 3 unassisted pull-ups",
+                    "Reduced waist by 3 inches"
+                ]
+            },
+             {
+                "id": 205,
+                "client": "Michael T.",
+                "age": 40,
+                "weight": "170lbs → 185lbs",
+                "goal": "Build functional strength for rugby",
+                "starting_point": "Novice lifter, inconsistent form",
+                "duration": "5 months",
+                "program_type": "Powerlifting Fundamentals",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Deadlift: 135lbs → 315lbs",
+                    "Squat: 95lbs → 275lbs",
+                    "Made competitive rugby team"
+                ]
+            },
+            {
+                "id": 206,
+                "client": "Priya N.",
+                "age": 35,
+                "weight": "125lbs → 130lbs",
+                "goal": "Tone up for wedding",
+                "starting_point": "Skinny-fat, weak core",
+                "duration": "16 weeks",
+                "program_type": "Hypertrophy Focus (3x/week)",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
                 "wins": [
                     "Added 1.5 inches to glutes",
                     "Can do 3 unassisted pull-ups",
@@ -92,8 +228,8 @@
                 "starting_point": "Couldn't touch toes, desk-job stiffness",
                 "duration": "3 months",
                 "program_type": "Dynamic Stretching + Myofascial Release",
-                "before_photos": "james_before.jpg",
-                "after_photos": "james_after.jpg",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
                 "wins": [
                     "0 back pain after 8 weeks",
                     "Improved squat depth by 50%",
@@ -109,8 +245,76 @@
                 "starting_point": "45° shoulder flexion limitation",
                 "duration": "6 months",
                 "program_type": "PNF Stretching + Resistance Bands",
-                "before_photos": "aisha_before.jpg",
-                "after_photos": "aisha_after.jpg",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Regained 160° shoulder rotation",
+                    "Can swim freestyle again",
+                    "No more pain during sleep"
+                ]
+            },
+            {
+                "id": 303,
+                "client": "James L.",
+                "age": 45,
+                "weight": "N/A (focus on mobility)",
+                "goal": "Fix chronic lower back pain",
+                "starting_point": "Couldn't touch toes, desk-job stiffness",
+                "duration": "3 months",
+                "program_type": "Dynamic Stretching + Myofascial Release",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "0 back pain after 8 weeks",
+                    "Improved squat depth by 50%",
+                    "Can now do full pancake stretch"
+                ]
+            },
+            {
+                "id": 304,
+                "client": "Aisha B.",
+                "age": 50,
+                "weight": "N/A",
+                "goal": "Restore shoulder mobility post-surgery",
+                "starting_point": "45° shoulder flexion limitation",
+                "duration": "6 months",
+                "program_type": "PNF Stretching + Resistance Bands",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Regained 160° shoulder rotation",
+                    "Can swim freestyle again",
+                    "No more pain during sleep"
+                ]
+            },
+            {
+                "id": 305,
+                "client": "James L.",
+                "age": 45,
+                "weight": "N/A (focus on mobility)",
+                "goal": "Fix chronic lower back pain",
+                "starting_point": "Couldn't touch toes, desk-job stiffness",
+                "duration": "3 months",
+                "program_type": "Dynamic Stretching + Myofascial Release",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "0 back pain after 8 weeks",
+                    "Improved squat depth by 50%",
+                    "Can now do full pancake stretch"
+                ]
+            },
+            {
+                "id": 306,
+                "client": "Aisha B.",
+                "age": 50,
+                "weight": "N/A",
+                "goal": "Restore shoulder mobility post-surgery",
+                "starting_point": "45° shoulder flexion limitation",
+                "duration": "6 months",
+                "program_type": "PNF Stretching + Resistance Bands",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
                 "wins": [
                     "Regained 160° shoulder rotation",
                     "Can swim freestyle again",
@@ -132,8 +336,8 @@
                 "starting_point": "Pre-diabetic, low energy",
                 "duration": "5 months",
                 "program_type": "Macro Tracking + Metabolic Workouts",
-                "before_photos": "robert_before.jpg",
-                "after_photos": "robert_after.jpg",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
                 "wins": [
                     "Lost 50lbs (20% body fat reduction)",
                     "Blood sugar normalized",
@@ -149,8 +353,76 @@
                 "starting_point": "Diastasis recti, weak pelvic floor",
                 "duration": "9 months",
                 "program_type": "Core Rehab + Progressive Walks",
-                "before_photos": "lisa_before.jpg",
-                "after_photos": "lisa_after.jpg",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Healed 2-finger diastasis",
+                    "Ran 5K pushing stroller",
+                    "Kept milk supply while cutting"
+                ]
+            },
+             {
+                "id": 403,
+                "client": "Robert H.",
+                "age": 38,
+                "weight": "245lbs → 195lbs",
+                "goal": "Lose dad bod before Hawaii trip",
+                "starting_point": "Pre-diabetic, low energy",
+                "duration": "5 months",
+                "program_type": "Macro Tracking + Metabolic Workouts",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Lost 50lbs (20% body fat reduction)",
+                    "Blood sugar normalized",
+                    "Completed first Spartan Race"
+                ]
+            },
+            {
+                "id": 404,
+                "client": "Lisa P.",
+                "age": 29,
+                "weight": "180lbs → 145lbs",
+                "goal": "Post-pregnancy weight loss",
+                "starting_point": "Diastasis recti, weak pelvic floor",
+                "duration": "9 months",
+                "program_type": "Core Rehab + Progressive Walks",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Healed 2-finger diastasis",
+                    "Ran 5K pushing stroller",
+                    "Kept milk supply while cutting"
+                ]
+            },
+             {
+                "id": 405,
+                "client": "Robert H.",
+                "age": 38,
+                "weight": "245lbs → 195lbs",
+                "goal": "Lose dad bod before Hawaii trip",
+                "starting_point": "Pre-diabetic, low energy",
+                "duration": "5 months",
+                "program_type": "Macro Tracking + Metabolic Workouts",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
+                "wins": [
+                    "Lost 50lbs (20% body fat reduction)",
+                    "Blood sugar normalized",
+                    "Completed first Spartan Race"
+                ]
+            },
+            {
+                "id": 406,
+                "client": "Lisa P.",
+                "age": 29,
+                "weight": "180lbs → 145lbs",
+                "goal": "Post-pregnancy weight loss",
+                "starting_point": "Diastasis recti, weak pelvic floor",
+                "duration": "9 months",
+                "program_type": "Core Rehab + Progressive Walks",
+                "before_photos": "../images/before-thumbnail.jpg",
+                "after_photos": "../images/after-thumbnail.jpg",
                 "wins": [
                     "Healed 2-finger diastasis",
                     "Ran 5K pushing stroller",
