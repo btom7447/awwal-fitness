@@ -1,4 +1,5 @@
 import PortfolioDisplay from "./PortfolioDisplay";
+import PricingPlanSection from "./PricingPlanSection";
 
 export default function PortfolioSection() {
     return (

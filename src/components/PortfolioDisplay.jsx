@@ -112,7 +112,7 @@ export default function PortfolioDisplay() {
                         <button
                             type="button"
                             onClick={handleViewMore}
-                            className="px-10 py-5 bg-white text-black text-xl capitalize cursor-pointer hover:bg-blue-400 hover:text-white"
+                            className="px-10 py-3 bg-white text-black text-xl capitalize cursor-pointer hover:bg-blue-400 hover:text-white"
                         >
                             View More
                         </button>

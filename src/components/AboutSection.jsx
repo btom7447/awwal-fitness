@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import Expertise from "./Expertise";
 import SkillsRange from "./SkillsRange";
 import StatsSection from "./StatsSection";
+import PortfolioSection from "./PortfolioSection";
 
 export default function AboutSection() {
     const skillsRef = useRef(null);
@@ -72,6 +73,7 @@ export default function AboutSection() {
                 />
             </div>
             <StatsSection stats={stats} />
+            <PortfolioSection />
         </section>
     );
 }

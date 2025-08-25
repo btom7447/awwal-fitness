@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Sarah Johnson",
+        "title": "Software Engineer",
+        "image": "../images/review-thumbnail.jpg",
+        "review": "Awwal Fitness helped me transform my lifestyle. The coaching is personalized and motivating. Highly recommended!"
+    },
+    {
+        "name": "Michael Lee",
+        "title": "Marketing Specialist",
+        "image": "../images/review-thumbnail.jpg",
+        "review": "The workouts are challenging but fun. My energy levels have improved thanks to Awwal Fitness."
+    },
+    {
+        "name": "Priya Patel",
+        "title": "Student",
+        "image": "../images/review-thumbnail.jpg",
+        "review": "I love the supportive community and expert guidance. Awwal Fitness is the best decision I made for my health."
+    },
+    {
+        "name": "David Kim",
+        "title": "Entrepreneur",
+        "image": "../images/review-thumbnail.jpg",
+        "review": "Awwal Fitness provides excellent coaching and nutrition advice. I feel stronger and more confident."
+    },
+    {
+        "name": "Emily Carter",
+        "title": "Graphic Designer",
+        "image": "../images/review-thumbnail.jpg",
+        "review": "The coach is knowledgeable and encouraging. My fitness journey has been amazing with Awwal Fitness."
+    },
+    {
+        "name": "Ahmed Musa",
+        "title": "Teacher",
+        "image": "../images/review-thumbnail.jpg",
+        "review": "Awwal Fitness helped me set realistic goals and achieve them. I appreciate the dedication and support."
+    }
+]

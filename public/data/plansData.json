@@ -1,0 +1,39 @@
+[
+    {
+        "name": "beginners", 
+        "price": 10000,
+        "perks": [
+            "Access to beginner workouts",
+            "Weekly progress tracking",
+            "Basic nutrition guide",
+            "Email support",
+            "Community group access"
+        ]
+        },
+        {
+        "name": "intermediate",
+        "price": 20000,
+        "perks": [
+            "Access to all workouts",
+            "Personalized progress tracking",
+            "Advanced nutrition guide",
+            "Email & chat support",
+            "Community group access",
+            "Monthly live Q&A"
+        ]
+        },
+        {
+        "name": "premium",
+        "price": 50000,
+        "perks": [
+            "All workout programs",
+            "Personalized coaching",
+            "Custom meal plans",
+            "Weekly check-ins",
+            "Priority email & chat support",
+            "Community group access",
+            "Monthly live Q&A",
+            "Exclusive member resources"
+        ]
+    }
+]
