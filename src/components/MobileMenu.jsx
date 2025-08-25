@@ -5,8 +5,9 @@ import { useEffect, useState } from "react";
 export default function MobileMenu({ isOpen, onClose }) {
   const links = [
     { href: "#heroSection", label: "Home" },
-    { href: "#aboutSection", label: "About" },
-    { href: "#portfolioSection", label: "Portfolio" },
+    { href: "#aboutSection", label: "Portfolio" },
+    { href: "#testimonialSection", label: "Reviews"},
+    { href: "#pricingSection", label: "Pricing" },
     { href: "#contactSection", label: "Contact" },
   ];
 
