@@ -21,7 +21,7 @@ export default function PricingPlanSection() {
                         <p className="text-xl uppercase text-gray-500 mb-2">
                             Billed Monthly
                         </p>
-                        <h4 className="text-2xl lg:text-4xl font-bold text-center uppercase mb-2">{plan.name}</h4>
+                        <h4 className="text-white text-2xl lg:text-4xl font-bold text-center uppercase mb-2">{plan.name}</h4>
                         <span className="text-xl font-extrabold text-blue-300 my-5"> ₦
                             <span className='text-5xl '>
                                 {plan.price.toLocaleString()}
